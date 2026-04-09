@@ -1,4 +1,4 @@
-1. Papel de cada componente no sistema:
+**1. Papel de cada componente no sistema:**
 
 De acordo com os conceitos de SDCD, onde o controle é distribuído entre vários elementos interligados, cada componente da arquitetura tecnológica proposta desempenha uma função específica:
 
@@ -12,7 +12,7 @@ Servidor: Atua como o nó central de Gerenciamento de Dados, onde as informaçõ
 
 Aplicativo Mobile e Dashboard: Representam o Nível de Supervisão (HMI/SCADA). São as ferramentas que permitem ao operador interagir com o sistema, visualizar o estado do processo e tomar decisões baseadas em dados reais.
 
-2. Fluxo de Dados e Integração:
+**2. Fluxo de Dados e Integração:**
 
 O funcionamento do sistema segue uma lógica de integração vertical, conforme os princípios de redes industriais:
 
@@ -24,7 +24,7 @@ Transporte: O protocolo MQTT garante que a mensagem chegue ao servidor com baixa
 
 Saída: O Dashboard processa esses dados e os apresenta de forma gráfica para a gestão da fábrica.
 
-3. Decisões Estratégicas e Gestão:
+**3. Decisões Estratégicas e Gestão:**
 
 Com a implementação desta arquitetura, a gestão da fábrica pode realizar:
 
@@ -34,7 +34,7 @@ Manutenção Preditiva: Identificação de padrões que sugerem falhas futuras e
 
 Otimização de Processos: Ajuste de parâmetros de produção para garantir a qualidade do produto final.
 
-4. Vantagens da Implementação (Contexto SDCD):
+**4. Vantagens da Implementação (Contexto SDCD):**
 
 Conforme apresentado no conteúdo de Sistemas Digitais de Controle Distribuído, este modelo supera o controle centralizado tradicional através de:
 
